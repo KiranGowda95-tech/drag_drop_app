@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first,
+.second {
+  height: 100vh;
+  width: 20vw;
+  background-color: bisque;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  border: 2px solid black;
+  height: 100px;
+  width: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
